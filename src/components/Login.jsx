@@ -1,12 +1,15 @@
+import './style.css'
+import { Link } from 'react-router-dom'
+
 function Login () {
   return (
     <div>
       {/* A tela vai ser d-flex, 100%, alinhado na vertical e horizontal, cor de fundo primário */}
-      <div className='login template d-flex justify-content-center align-items-center 100-w 100-vh bg-primary'>
+      <div className='login template d-flex justify-content-center align-items-center 100-w vh-100 bg-primary'>
         {/*   p-5 é padding tamanho 5 */}
-        <div className='40-w p-5 rounded bg-white'>
+        <div className='form-container p-5 rounded bg-white'>
           <form>
-            <h3>Sign In</h3>
+            <h3 className='text-center'>Sign In</h3>
             {/* mb-2 é distância embaixo */}
             <div className='mb-2'>
               <label htmlFor='email'>Email</label>
@@ -32,14 +35,18 @@ function Login () {
                 className='custom-control custom-check'
                 id='check'
               />
-              <label htmlFor='password'>Remember password</label>
+              <label htmlFor='password' className='custom-input-label ms-2'>
+                Remember password
+              </label>
               <div className='d-grid'>
                 <button className='btn btn-primary'>Sign In</button>
               </div>
             </div>
-            <p className='text-right'>
+            <p className='text-end mt-2'>
               Forgot <a href=''>Password?</a>
-              <a href=''>Sign up?</a>
+              <Link to='/signup' className='ms-2'>
+                  Sign up?
+              </Link>
             </p>
           </form>
         </div>

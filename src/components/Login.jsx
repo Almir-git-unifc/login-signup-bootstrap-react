@@ -5,13 +5,13 @@ function Login () {
   return (
     <div>
       {/* A tela vai ser d-flex, 100%, alinhado na vertical e horizontal, cor de fundo primário */}
-      <div className='login template d-flex justify-content-center align-items-center 100-w vh-100 bg-primary'>
+      <div className='login d-flex justify-content-center align-items-center 100-w vh-100 bg-primary'>
         {/*   p-5 é padding tamanho 5 */}
-        <div className='form-container p-5 rounded bg-white'>
-          <form>
+        <div className='form-container  p-xl-5 p-lg-5 p-md-4 p-sm-3 p-xs-3 rounded bg-white'>
+          <form className='formgeral p-md-4 '>
             <h3 className='text-center'>Sign In</h3>
             {/* mb-2 é distância embaixo */}
-            <div className='mb-2'>
+            <div className='mb-2 classnameinput'>
               <label htmlFor='email'>Email</label>
               <input
                 type='email'
@@ -28,7 +28,7 @@ function Login () {
                 className='form-control'
               />
             </div>
-            <div className='mb-2'>
+            <div className='mb-2 textRememb'>
               {/* custom-control fornece  um rótulo, um ícone de marcação e um ponto de verificação */}
               <input
                 type='checkbox'
@@ -42,12 +42,14 @@ function Login () {
                 <button className='btn btn-primary'>Sign In</button>
               </div>
             </div>
-            <p className='text-end mt-2'>
-              Forgot <a href=''>Password?</a>
+            <div className="paragfim">
+            <p className='text-end mt-2 textSignup'>
+              Forgot Password?{' '}
               <Link to='/signup' className='ms-2'>
                   Sign up?
               </Link>
             </p>
+            </div>
           </form>
         </div>
       </div>

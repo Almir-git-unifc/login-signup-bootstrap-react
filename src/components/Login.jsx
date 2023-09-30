@@ -4,7 +4,7 @@ function Login () {
       {/* A tela vai ser d-flex, 100%, alinhado na vertical e horizontal, cor de fundo primário */}
       <div className='login template d-flex justify-content-center align-items-center 100-w 100-vh bg-primary'>
         {/*   p-5 é padding tamanho 5 */}
-        <div className='40-w p-5 rounded'>
+        <div className='40-w p-5 rounded bg-white'>
           <form>
             <h3>Sign In</h3>
             {/* mb-2 é distância embaixo */}

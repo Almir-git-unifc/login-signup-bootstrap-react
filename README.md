@@ -1,30 +1,24 @@
 login-signup-bootstrap-react
 ======================================
-Login Signup frontend responsive made in react vite with bootstrap
+Under construction: Login Signup frontend responsive made in react vite with bootstrap
 
-
-Test send file in New BRANCH ********************************************************** / / / / /
 
 ---------------------------------------------------------------------------------------------------------
 
 
 STATUS: 
-<h4 align="center"> 
+<h3 align="center"> 
 	🚧  React VITE 🚀 App under construction ...  🚧
-</h4>
+</h3>
+<h5>We still need to fix the problem that the form don't adapt to screens smaller than 570px.</h5>
 
                       ==========================================
                       
-********* Test repository version 0 send readme *****************
-
-********* vxxxx -x xx x xxxxxx *****************
 
 --------------------------------------------------------------------------------------
 
 
-![Link de figura1 do App](https://github.com/Almir-git-unifc/xxxxxxxxxxxxxxx1.png)
-
-![Link de figura2 do App](https://github.com/Almir-git-unifc/xxxxxxxxxxxxxxx2.png)
+![Login Screen](https://github.com/Almir-git-unifc/login-signup-bootstrap-react/blob/main/screen.png)
 
 
 --------------------------------------------------------------------------------------
@@ -43,11 +37,10 @@ STATUS:
 
 
 # Intro <a name = "Intro"></a>
-Explicação introdutória sobre o App.
 
-First: This project was developed using VITE, which is a little different from the original react.
-
-In the Login Signup xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+This project was developed previously for CodeWithYousaf, found on youtube with the title 
+""" Build React Login & Sign Up UI Template with Bootstrap 5 """
+However, in my devepoment used: Msg-linter and comitzen for semantic version and improved the colors and responsiveness of the app
 
 <!-- 
 Layout de site responsivo, simples, criado com código html, css e javascript; usando regra de mídia, barra de rolagem, ícone de sanduíche e menu deslizante 
@@ -56,23 +49,21 @@ Layout de site responsivo, simples, criado com código html, css e javascript; u
 
 
 # Feature <a name = "Feature"></a>
-- funcionalidade 1
-- funcionalidade 2
+- Login Signup
 
 
 &nbsp;
 # Technologies <a name = "Technologies"></a>
-Tecnologias podem ser: React, vite
 
-In youtube's video this project was developed with Html, CSS and javascript language
+In youtube's video this project was developed with Html, CSS, Bootstrap
 
 However, in my devepoment used:
-Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets. 
+Msg-linter and comitzen for semantic version and Convencional Commits. 
 
 ### Built With 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
  
  
@@ -85,7 +76,7 @@ From your command line:
 ```
 &nbsp;
 ## Clone this repository or download zip folder
-### $ `https://github.com/Almir-git-unifc/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.git`
+### $ `https://github.com/Almir-git-unifc/login-signup-bootstrap-react.git`
 
 
 &nbsp;
